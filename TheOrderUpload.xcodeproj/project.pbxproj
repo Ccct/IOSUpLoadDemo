@@ -61,19 +61,27 @@
 		0465ACC82369739B001E380C /* TheOrderUpload */ = {
 			isa = PBXGroup;
 			children = (
+				0465ACE2236973AA001E380C /* ConfigFile */,
+				0465ACCF2369739B001E380C /* ViewController.h */,
+				0465ACD02369739B001E380C /* ViewController.m */,
+				0465ACD22369739B001E380C /* Main.storyboard */,
+			);
+			path = TheOrderUpload;
+			sourceTree = "<group>";
+		};
+		0465ACE2236973AA001E380C /* ConfigFile */ = {
+			isa = PBXGroup;
+			children = (
 				0465ACC92369739B001E380C /* AppDelegate.h */,
 				0465ACCA2369739B001E380C /* AppDelegate.m */,
 				0465ACCC2369739B001E380C /* SceneDelegate.h */,
 				0465ACCD2369739B001E380C /* SceneDelegate.m */,
-				0465ACCF2369739B001E380C /* ViewController.h */,
-				0465ACD02369739B001E380C /* ViewController.m */,
-				0465ACD22369739B001E380C /* Main.storyboard */,
 				0465ACD52369739E001E380C /* Assets.xcassets */,
 				0465ACD72369739E001E380C /* LaunchScreen.storyboard */,
 				0465ACDA2369739E001E380C /* Info.plist */,
 				0465ACDB2369739E001E380C /* main.m */,
 			);
-			path = TheOrderUpload;
+			path = ConfigFile;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -290,7 +298,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = TheOrderUpload/Info.plist;
+				INFOPLIST_FILE = TheOrderUpload/ConfigFile/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -306,7 +314,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = TheOrderUpload/Info.plist;
+				INFOPLIST_FILE = TheOrderUpload/ConfigFile/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
